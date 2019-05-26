@@ -28,7 +28,7 @@ DEBUG = False
 
 # 添加域名，或网站的ip地址
 # 以后别人只能通过ALLOWED_HOSTS中的方式进行访问
-ALLOWED_HOSTS = ['192.168.0.102']
+ALLOWED_HOSTS = ['192.168.175.131']
 
 
 # Application definition
@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'deploy_demo',
         'USER':'root',
-        'PASSWORD': 'root',
+        'PASSWORD': '123456',
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }
